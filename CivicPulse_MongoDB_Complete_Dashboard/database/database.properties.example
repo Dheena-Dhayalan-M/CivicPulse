@@ -1,0 +1,7 @@
+# Rename this file to database.properties when you are ready to connect a JDBC database.
+# The current demo does not require this file.
+
+db.url=jdbc:mysql://localhost:3306/civicpulse?useSSL=false&serverTimezone=Asia/Kolkata
+db.username=root
+db.password=YOUR_PASSWORD
+db.driver=com.mysql.cj.jdbc.Driver

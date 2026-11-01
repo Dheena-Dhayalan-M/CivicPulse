@@ -1,0 +1,31 @@
+# Secrets and local configuration
+config.properties
+config.properties.*
+!.config.properties.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local database files / personal or demo data
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Build output and downloaded dependencies
+bin/
+build/
+out/
+target/
+lib/*.jar
+*.class
+
+# IDE / OS files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
